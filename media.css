@@ -1,0 +1,122 @@
+@media (min-width: 840px) {
+    .landingpageHeading {
+        display: inline;
+    }
+
+    /* Fade-and-translate animation */
+    .fade-only {
+        transform: translateY(0) !important;
+        /* Final position */
+    }
+
+    .fade-up {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .fade-up.active {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 840px) {
+    .card-title {
+        font-size: 1.3rem;
+        /* Adjust font size for readability on small screens */
+        /* padding: ; */
+    }
+
+    /* Fade-and-translate animation */
+    .fade-up-mobile-only {
+        transform: translateY(0) !important;
+        /* Final position */
+    }
+
+    .fade-up-mobile {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .fade-up-mobile.active {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .landingpageHeading {
+        /* display: block; */
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 991px) {
+    .nav-item {
+        margin: 0 !important;
+        border: none !important;
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+    .span {
+        text-decoration: underline;
+        text-underline-offset: 18.4%;
+        text-decoration-thickness: 12rem;
+        text-decoration: underline;
+    }
+
+    .span::before {
+        display: none;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .card-title {
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .landingpageHeading {
+        /* display: block; */
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1800px) {
+    .span {
+        text-decoration: underline;
+        text-underline-offset: 18.4%;
+        text-decoration-thickness: 12rem;
+        text-decoration: underline;
+    }
+
+    .span::before {
+        display: none;
+    }
+
+    .bigproductcarddaddy {
+        width: 40%;
+    }
+
+    .bigproductcard span {
+        font-size: 340%;
+    }
+
+    .bigproductcard h1 {
+        font-size: 300%;
+    }
+
+    .productcard {
+        width: 60%;
+    }
+
+    .pappuSpecialImg {
+        width: 72%;
+    }
+}
