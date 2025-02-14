@@ -1,0 +1,441 @@
+/* Hubot Sans */
+@font-face {
+    font-family: 'Hubot Sans';
+    src: url('fontstoadd/HubotSans-Bold.woff2') format('woff2');
+    font-weight: bold; /* Equivalent to 700 */
+  }
+  @font-face {
+    font-family: 'Hubot Sans';
+    src: url('fontstoadd/HubotSans-Medium.woff2') format('woff2');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Hubot Sans';
+    src: url('fontstoadd/HubotSans-Regular.woff2') format('woff2');
+    font-weight: 400; /* Equivalent to normal */
+  }
+  
+  /* Open Sans */
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fontstoadd/OpenSans-Light.woff2') format('woff2');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fontstoadd/OpenSans-Medium.woff2') format('woff2');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fontstoadd/OpenSans-Regular.woff2') format('woff2');
+    font-weight: 400; /* Equivalent to normal */
+  }
+  
+  /* Poppins */
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fontstoadd/Poppins-Bold.woff2') format('woff2');
+    font-weight: bold; /* Equivalent to 700 */
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fontstoadd/Poppins-Light.woff2') format('woff2');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fontstoadd/Poppins-Medium.woff2') format('woff2');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fontstoadd/Poppins-Regular.woff2') format('woff2');
+    font-weight: 400; /* Equivalent to normal */
+  }
+  
+  /* Roboto */
+  @font-face {
+    font-family: 'Roboto';
+    src: url('fontstoadd/Roboto-Bold.woff2') format('woff2');
+    font-weight: bold; /* Equivalent to 700 */
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('fontstoadd/Roboto-Light.woff2') format('woff2');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('fontstoadd/Roboto-Medium.woff2') format('woff2');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('fontstoadd/Roboto-Regular.woff2') format('woff2');
+    font-weight: 400; /* Equivalent to normal */
+  }
+  
+  /* Syncopate */
+  @font-face {
+    font-family: 'Syncopate';
+    src: url('fontstoadd/Syncopate-Bold.woff2') format('woff2');
+    font-weight: bold; /* Equivalent to 700 */
+  }
+  @font-face {
+    font-family: 'Syncopate';
+    src: url('fontstoadd/Syncopate-Regular.woff2') format('woff2');
+    font-weight: 400; /* Equivalent to normal */
+  }
+
+  
+  
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+::selection {
+    /* background: #000; */
+    /* color: white; */
+    background: #D4AF37;
+    color: #4E3629;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    font-family: "Syncopate", "Hubot Sans", "Roboto", "Poppins", "Open Sans", sans-serif;
+    font-family: "Hubot Sans";
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#contactbtn,
+#submitbtn {
+    background-color: #d69c59;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 18%;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#contactbtn:hover,
+#submitbtn:hover {
+    background-color: #977747;
+    transform: scale(1.03);
+}
+
+#submitbtn:focus,
+#contactbtn:focus {
+    box-shadow: 0 0 5px 2px rgba(198, 156, 109, 0.7);
+}
+
+.textt h3 {
+    font-family: "Syncopate" !important;
+}
+
+.headingText h1,
+.headingText h1 button,
+.headingText h2,
+.headingText h2 button,
+.headingText h3,
+.headingText h3 button,
+.headingText h4,
+.headingText h4 button,
+.headingText h5,
+.headingText h5 button {
+    font-family: "Hubot Sans", sans-serif !important;
+    color: #333 !important;
+    font-weight: 700;
+}
+
+.headingText h3,
+.headingText h3 button,
+.headingText h4,
+.headingText h4 button {
+    font-weight: 600;
+}
+
+.headingText h5 button,
+.headingText h5 {
+    font-weight: 500;
+}
+
+.secondaryheadingText p,
+.secondaryheadingText label {
+    font-family: "Poppins", sans-serif !important;
+    color: #333 !important;
+    font-weight: 300;
+}
+
+.rounded-container,
+.rounded-container2,
+.rounded-container3,
+.rounded-container4 {
+    background-color: #f8f9fa;
+    border-radius: 40px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.rounded-container {
+    border-radius: 0;
+}
+
+.rounded-container2 {
+    background-color: #fff;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.rounded-container3,
+.rounded-container4 {
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+
+}
+
+.rounded-container4 {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.rounded-container4 ul li {
+    list-style: none;
+}
+
+.rounded-container4 ul li a {
+    color: #333;
+}
+
+.rounded-container2 h2 {
+    font-family: "Syncopate";
+    /* background: #b1b1b1;*/
+    /* font-weight: 700; */
+}
+
+.landingpage {
+    position: relative;
+}
+
+.lpH1,
+.lpH2 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white !important;
+    padding: 0 3rem;
+}
+
+.lpH1 {
+    left: 14%;
+}
+
+.lpH2 {
+    left: 84%;
+}
+
+.pappuimg {
+    height: 100px;
+    scale: 1.24;
+}
+
+.navKiPadding {
+    padding: 0 5rem;
+}
+
+.skillsSVG {
+    height: 28px;
+}
+
+.skillsSec h3,
+.skillsSec p {
+    font-family: "Open Sans";
+}
+
+.pappuSpecialImg {
+    border-radius: 32px;
+    /* filter: saturate(0); */
+
+}
+
+
+.card-title {
+    letter-spacing: -1px;
+}
+
+.card-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.bigproductcard img {
+    width: 100%;
+}
+
+.bigproductcard p {
+
+    position: relative;
+    /* color: red; */
+}
+
+.productcard {
+    border-radius: 5%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    transition: all 0.3s ease-in-out;
+    /* filter: saturate(0); */
+}
+
+.productcard:hover {
+    border-radius: 15% 15% 15% 2%;
+    transform: scale(1.12);
+    transition: all 0.3s ease-in-out;
+}
+
+.productcard img {
+    transition: all 0.3s ease-in-out;
+}
+
+.productcard h3 {
+    position: relative;
+    z-index: 9;
+}
+
+.productcard:hover img {
+    transform: scale(1.01) translateY(-4px);
+    /* Scales the image on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8%;
+    /* Adjusts image radius */
+}
+
+.span {
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    font-family: serif;
+    position: relative;
+}
+
+
+.span::before {
+    content: "";
+    position: absolute;
+    bottom: -9.2%;
+    height: 9.2%;
+    background-color: #212529;
+}
+
+.goldenSpan::before {
+    right: 0;
+    left: 30%;
+}
+
+.oceanSpan::before {
+    left: 0;
+    right: 30%;
+}
+
+
+.pappuspecialtext {
+    font-family: "Hubot Sans";
+    /* word-spacing: 6rem; */
+    font-weight: 500;
+    line-height: 130%;
+}
+
+/* Shadow effect */
+.shadow-lg {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.accordion-button {
+    font-weight: bold;
+    color: #333;
+    background-color: #F8F9FA;
+    border: none;
+    box-shadow: none;
+    transition: background-color 0.3s;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: hsl(0, 0%, 95%);
+    color: #000;
+}
+
+.accordion-button {
+    box-shadow: none;
+    outline: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    filter: saturate(0%);
+}
+
+
+.accordion-body {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.accordion-body strong {
+    font-weight: 500;
+}
+
+.contact-form-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-form-container h2 {
+    font-family: "Poppins" !important;
+    margin-bottom: 1em;
+}
+
+.contact-form-container label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ddd;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 30px;
+}
+
+.container a {
+    color: #b5651d;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
